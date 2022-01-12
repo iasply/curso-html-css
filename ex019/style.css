@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+
+    em html id = em css é #
+    em html class =  em css é .
+
+*/
+/* 
+    id sobrepoem class
+*/
+
+
+
+body {
+    background-color: #deb887 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500   ;
+
+}
+h1 {
+    color:#5E4E3A;
+    font-size: 4em;
+}
+h1#principal{
+    text-align: center;
+    font-size: 5em;
+    background-color: #AB8E68;
+}
+h2 {
+    color:#5E4E3A;
+}
+
+.basico{
+    font-size: 24px;
+    color: #008000;
+}
+.intermediario {
+    font-size: 24px;
+    color: #5E0680;
+}
+.avançado {
+    font-size: 24px;
+    color: #CC2F14;
+}
+.destaque {
+    background-color: #488BAB;
+}

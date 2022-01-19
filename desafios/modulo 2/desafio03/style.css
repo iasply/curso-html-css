@@ -15,14 +15,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
 }
 
 /* header */
 
 header {
     background-color: black;
-    
     text-align: center;
     
 }
@@ -43,30 +41,36 @@ header > p{
     font-weight: normal;
     padding-bottom: 50px;
 }
-header a {
+ a {
     text-decoration: none;
     color: white;
+    
 }
-header a:hover {
+ a:hover {
     text-decoration: underline;
 }
 
-/* global  */
-
- main p {
-    font-family: var(--fonte3);
-    text-align: left;
-    font-size: 3.5vw;
-    padding: 10vh;
-    padding-left: 30px;
-    line-height: 2em;
+/* main  */
+section p {
+    padding-bottom: 2em;
+    
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: var(--fonte3);
+    text-align: left;
+}
+
+/* parllax */
 section.parallax {
     background-color: black;
     position: relative;
-    height: auto;
-    padding: 180px 0px;
+    
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,18 +93,29 @@ section.parallax:after {
 
   section.parallax.parallax-demo1 {
     background-image: url("imagens/background001.jpg");
-    background-position: 100% 100%;
+    background-position: right center;
   }
 
   section.parallax.parallax-demo2 {
     background-image: url("imagens/background002.jpg");
-    background-position: 100% 100%;
+    background-position: right center;
   }
 .text {
+    padding: 10px;
     color: #fff;
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.500);
-    width: 800px;
-   
+    background-color: rgba(0, 0, 0, 0.523);
+    text-shadow: 2px 2px 0px black;
+    display: inline-block;
+}
+
+/* footer */
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte1);
 }

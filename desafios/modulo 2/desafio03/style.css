@@ -68,28 +68,10 @@ section {
 
 /* parllax */
 section.parallax {
-    background-color: black;
-    position: relative;
-    
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.474);
+    background-size: cover ;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
-
-section.parallax:after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.30);
-    z-index: -1;
-    content: ' ';
-  }
 
   section.parallax.parallax-demo1 {
     background-image: url("imagens/background001.jpg");
@@ -100,11 +82,10 @@ section.parallax:after {
     background-image: url("imagens/background002.jpg");
     background-position: right center;
   }
+  
 .text {
     padding: 10px;
     color: #fff;
-    position: relative;
-    z-index: 1;
     background-color: rgba(0, 0, 0, 0.523);
     text-shadow: 2px 2px 0px black;
     display: inline-block;
